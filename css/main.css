@@ -30,3 +30,8 @@ div {
 	border-radius: 5px;
 	background-size: cover;
 }
+
+.icon {
+	size:150px;
+	border-radius: 50%;
+}
