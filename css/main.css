@@ -1,14 +1,11 @@
-html {
-	font-family: Ubuntu, arial, sans-serif;
-}
-
 @font-face {
-	font-family: Ubuntu;
-	src: url(../fonts/Ubuntu-Regular.ttf);
+	font-family: "Ubuntu";
+	src: url("../fonts/Ubuntu-Regular.ttf");
 }
 body {
 	background-image: url("../pictures/background.jpg");
 	background-size: cover;
+	font-family: 'Ubuntu', Arial, sans-serif;
 }
 
 h1	{
@@ -20,8 +17,7 @@ h2 {
 }
 
 p {
-	font-size: 20px;
-	padding-bottom: 2px;
+	font-size: 18px;
 }
 
 div {
@@ -40,12 +36,8 @@ div {
 }
 
 .profile {
-	padding-top: 5px;
+	padding-top: 15px;
 	width: 192px;
 	height: 192px;
 	border-radius: 50%;
-}
-
-#footer {
-	padding-top: 5px;
 }
