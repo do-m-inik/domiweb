@@ -1,10 +1,10 @@
 html {
-	font-family: ubuntu, sans-serif;
+	font-family: Ubuntu, arial, sans-serif;
 }
 
 @font-face {
-	font-family: ubuntu;
-	src: url("../fonts/Ubuntu-Medium.ttf");
+	font-family: Ubuntu;
+	src: url(../fonts/Ubuntu-Regular.ttf);
 }
 body {
 	background-image: url("../pictures/background.jpg");
@@ -21,17 +21,26 @@ h2 {
 
 p {
 	font-size: 20px;
+	padding-bottom: 2px;
 }
 
 div {
 	background-color:rgba(255, 255, 255, 0.5);
-	padding: 10px;
+	padding: 5px 0px 10px 20px;
 	margin: 10px;
-	border-radius: 5px;
+	border-radius: 20px;
 	background-size: cover;
 }
 
 .icon {
-	size:150px;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	padding: 10px;
+}
+
+.profile {
+	width: 192px;
+	height: 192px;
 	border-radius: 50%;
 }
