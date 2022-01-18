@@ -40,7 +40,12 @@ div {
 }
 
 .profile {
+	padding-top: 5px;
 	width: 192px;
 	height: 192px;
 	border-radius: 50%;
+}
+
+#footer {
+	padding-top: 5px;
 }
