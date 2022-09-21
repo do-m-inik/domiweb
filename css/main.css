@@ -41,3 +41,9 @@ div {
 	height: 192px;
 	border-radius: 50%;
 }
+
+@media screen and (max-width : 1000px){
+	.only_on_desktop{
+		display: none;
+	}
+}
